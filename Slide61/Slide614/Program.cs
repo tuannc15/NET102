@@ -17,8 +17,8 @@
 
             IList<int> intList = new List<int>() { 7, 10, 21, 30, 45, 50, 87 };
             IList<string> strList = new List<String>() { "Mot", "Hai", null, "Ba", "Bon", "Nam" };
-            //Console.WriteLine(intList.Last(x => x > 250).ToString());
-            // Console.WriteLine(strList.LastOrDefault(s => s.Contains("B")));
+           // Console.WriteLine(intList.Last(x => x > 250).ToString());
+            Console.WriteLine(strList.LastOrDefault(s => s.Contains("B")));
             Console.ReadKey();
         }
     }

@@ -1,0 +1,7 @@
+D:\TuanNC15\NET102\Slide72\Slide72\bin\Debug\Slide72.exe.config
+D:\TuanNC15\NET102\Slide72\Slide72\bin\Debug\Slide72.exe
+D:\TuanNC15\NET102\Slide72\Slide72\bin\Debug\Slide72.pdb
+D:\TuanNC15\NET102\Slide72\Slide72\obj\Debug\Slide72.csproj.AssemblyReference.cache
+D:\TuanNC15\NET102\Slide72\Slide72\obj\Debug\Slide72.csproj.CoreCompileInputs.cache
+D:\TuanNC15\NET102\Slide72\Slide72\obj\Debug\Slide72.exe
+D:\TuanNC15\NET102\Slide72\Slide72\obj\Debug\Slide72.pdb

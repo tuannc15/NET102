@@ -1,4 +1,6 @@
-﻿namespace Slide613
+﻿using System.Diagnostics;
+
+namespace Slide613
 {
     internal class Program
     {
@@ -10,7 +12,15 @@
             Console.WriteLine(intList.Last());
             Console.WriteLine(intList.Last(x => x % 2 == 0));
             Console.WriteLine(strList.Last());
-            //Console.WriteLine(emptyList.Last());
+            try
+            {
+                Console.WriteLine(emptyList.Last());
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
+            
             Console.ReadKey();
         }
     }
