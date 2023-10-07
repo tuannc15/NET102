@@ -1,0 +1,14 @@
+D:\TuanNC15\NET102\Slide62\Data\bin\Debug\net6.0\Data.exe
+D:\TuanNC15\NET102\Slide62\Data\bin\Debug\net6.0\Data.deps.json
+D:\TuanNC15\NET102\Slide62\Data\bin\Debug\net6.0\Data.runtimeconfig.json
+D:\TuanNC15\NET102\Slide62\Data\bin\Debug\net6.0\Data.dll
+D:\TuanNC15\NET102\Slide62\Data\bin\Debug\net6.0\Data.pdb
+D:\TuanNC15\NET102\Slide62\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\TuanNC15\NET102\Slide62\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+D:\TuanNC15\NET102\Slide62\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+D:\TuanNC15\NET102\Slide62\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+D:\TuanNC15\NET102\Slide62\Data\obj\Debug\net6.0\Data.dll
+D:\TuanNC15\NET102\Slide62\Data\obj\Debug\net6.0\refint\Data.dll
+D:\TuanNC15\NET102\Slide62\Data\obj\Debug\net6.0\Data.pdb
+D:\TuanNC15\NET102\Slide62\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
+D:\TuanNC15\NET102\Slide62\Data\obj\Debug\net6.0\ref\Data.dll

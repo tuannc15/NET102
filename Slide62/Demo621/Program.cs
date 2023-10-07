@@ -36,19 +36,19 @@ namespace Demo621
                 Console.WriteLine(d.EmpName + "\t| " + d.DeptName);
             }
             Console.WriteLine();
-            //var result2 = from emp in employeeList
-            //              join dept in departmentList
-            //              on emp.DeptId equals dept.DeptId into empDept
-            //              from ed in empDept.DefaultIfEmpty()
-            //              select new
-            //              {
-            //                  EmployeeName = emp.EmpName,
-            //                  DepartmentName = ed == null ? "No Department" : ed.DeptName
-            //              };
-            //foreach (var item in result2)
-            //{
-            //    Console.WriteLine(item.EmployeeName + "\t" + item.DepartmentName);
-            //}
+            var result2 = from emp in employeeList
+                          join dept in departmentList
+                          on emp.DeptId equals dept.DeptId into empDept
+                          from ed in empDept.DefaultIfEmpty()
+                          select new
+                          {
+                              EmployeeName = emp.EmpName,
+                              DepartmentName = ed == null ? "No Department" : ed.DeptName
+                          };
+            foreach (var item in result2)
+            {
+                Console.WriteLine(item.EmployeeName + "\t" + item.DepartmentName);
+            }
 
             Console.ReadKey();
         }
