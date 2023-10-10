@@ -11,29 +11,29 @@ namespace Slide72
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-            using (Asm_C_2DataContext db = new Asm_C_2DataContext(@"Data Source = TUANNC15\SQLEXPRESS; Initial Catalog = Asm_C#2;Persist Security Info=True;User ID=sa;Password=sa"))
-            {
-                var students = db.Students.ToList();
-                foreach (var item in students)
-                {
-                    Console.WriteLine(item.Name
-                        );
-                }
+            //using (Asm_C_2DataContext db = new Asm_C_2DataContext(@"Data Source=TUANNC15\SQLEXPRESS;Initial Catalog=Asm_C#2;Persist Security Info=True;User ID=sa;Password=sa"))
+            //{
+            //    var students = db.Students.ToList();
+            //    foreach (var item in students)
+            //    {
+            //        Console.WriteLine(item.Name
+            //            );
+            //    }
 
-            }
+            //}
 
-            using (var db = new Asm_C_2DataContext(@"Data Source = TUANNC15\SQLEXPRESS; Initial Catalog = Asm_C#2;Persist Security Info=True;User ID=sa;Password=sa"))
-            {
-                var lop = new Class()
-                {
-                    NameClass = "Lớp 4"
-                };
-                db.Classes.InsertOnSubmit(lop);
-                db.SubmitChanges();
-                Console.WriteLine("Inserted");
-            }
+            //using (var db = new Asm_C_2DataContext(@"Data Source = TUANNC15\SQLEXPRESS; Initial Catalog = Asm_C#2;Persist Security Info=True;User ID=sa;Password=sa"))
+            //{
+            //    var lop = new Class()
+            //    {
+            //        NameClass = "Lớp 5"
+            //    };
+            //    db.Classes.InsertOnSubmit(lop);
+            //    db.SubmitChanges();
+            //    Console.WriteLine("Inserted");
+            //}
 
-            //using (var db = new ASM1_C2DataContext(@"Data Source = TUANNC15\SQLEXPRESS; Initial Catalog = Asm_C#2;Persist Security Info=True;User ID=sa;Password=sa"))
+            //using (var db = new Asm_C_2DataContext(@"Data Source = TUANNC15\SQLEXPRESS; Initial Catalog = Asm_C#2;Persist Security Info=True;User ID=sa;Password=sa"))
             //{
             //    var lop = db.Classes
             //        .Where(x => x.IdClass == 7)
@@ -51,7 +51,7 @@ namespace Slide72
 
             //}
 
-            //using (var db = new ASM1_C2DataContext(@"Data Source = TUANNC15\SQLEXPRESS; Initial Catalog = Asm_C#2;Persist Security Info=True;User ID=sa;Password=sa"))
+            //using (var db = new Asm_C_2DataContext(@"Data Source = TUANNC15\SQLEXPRESS; Initial Catalog = Asm_C#2;Persist Security Info=True;User ID=sa;Password=sa"))
             //{
             //    var lop = db.Classes
             //        .Where(x => x.IdClass == 4)
@@ -61,20 +61,21 @@ namespace Slide72
             //        db.Classes.DeleteOnSubmit(lop);
             //        db.SubmitChanges();
             //        Console.WriteLine("Deleted");
-            //    } else
+            //    }
+            //    else
             //    {
             //        Console.WriteLine("Khong xoa");
             //    }
             //}
 
-            using (var db = new Asm_C_2DataContext(@"Data Source = TUANNC15\SQLEXPRESS; Initial Catalog = Asm_C#2;Persist Security Info=True;User ID=sa;Password=sa"))
-            {
-                var classes = db.Classes.ToList();
-                foreach (var c in classes)
-                {
-                    Console.WriteLine(c.NameClass);
-                }
-            }
+            //using (var db = new Asm_C_2DataContext(@"Data Source = TUANNC15\SQLEXPRESS; Initial Catalog = Asm_C#2;Persist Security Info=True;User ID=sa;Password=sa"))
+            //{
+            //    var classes = db.Classes.ToList();
+            //    foreach (var c in classes)
+            //    {
+            //        Console.WriteLine(c.NameClass);
+            //    }
+            //}
 
             using (var db = new Asm_C_2DataContext(@"Data Source = TUANNC15\SQLEXPRESS; Initial Catalog = Asm_C#2;Persist Security Info=True;User ID=sa;Password=sa"))
             {
@@ -94,6 +95,6 @@ namespace Slide72
             }
 
             Console.ReadLine();
+            }
         }
     }
-}
